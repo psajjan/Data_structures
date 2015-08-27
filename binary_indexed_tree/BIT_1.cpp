@@ -130,7 +130,6 @@ BinaryIndexedTree::getPrefixSum(int idx)
         sum += _bitArray[idx];
         idx = getPrev(idx);
     }
-    return sum;
 }
 
 //! @brief Update the binary indexed tree.
